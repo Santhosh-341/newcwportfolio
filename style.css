@@ -27,12 +27,14 @@ background-color:aqua;
    
 }
 .welcome {
+    text-align: center;
     margin: 0px;
     color: white;
     display: flex;
    justify-content: center;
    flex-wrap: wrap;
    
+
 }
 .navbarr{
     display: flex;
@@ -61,6 +63,7 @@ flex-wrap: wrap;
     margin: 20px 10px 20px 10px;
     border-radius: 10px;
  display:flex;
+text-align: center;
     flex-direction: column;
     /* justify-content:center; */
     align-items: center;
