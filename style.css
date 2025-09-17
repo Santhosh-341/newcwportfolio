@@ -52,9 +52,19 @@ flex-wrap: wrap;
     background-color: white;
     cursor: pointer;
 }
+@keyframes moveup {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-7px);
+    }
+}
 .btn:hover{
     background-color: black;
     color: white;
+    animation: moveup 1s ease 0s forwards;
 }
 .about {
     height: 100vh;
@@ -65,11 +75,12 @@ flex-wrap: wrap;
  display:flex;
 text-align: center;
     flex-direction: column;
-    /* justify-content:center; */
+    justify-content: center;
     align-items: center;
 }
 .about img{
     height: 200px;
+    border-radius: 20px;
 }
  .skills{
      padding-left: 30px;
